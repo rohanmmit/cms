@@ -57,8 +57,8 @@
 		043ADD8E19F6D72800370F8B /* HeatColdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeatColdTests.m; sourceTree = "<group>"; };
 		043ADD9819F6D7A400370F8B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		043ADD9919F6D7A400370F8B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		043ADD9B19F6D98900370F8B /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
-		043ADD9C19F6D98900370F8B /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		043ADD9B19F6D98900370F8B /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = HeatCold/MainView.h; sourceTree = "<group>"; };
+		043ADD9C19F6D98900370F8B /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = HeatCold/MainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,15 +121,13 @@
 		043ADD6B19F6D72800370F8B /* HeatCold */ = {
 			isa = PBXGroup;
 			children = (
+				043ADD9F19F7045C00370F8B /* Controllers */,
+				043ADD9E19F7043500370F8B /* Views */,
 				043ADD7419F6D72800370F8B /* AppDelegate.h */,
 				043ADD7519F6D72800370F8B /* AppDelegate.m */,
 				043ADD7A19F6D72800370F8B /* Images.xcassets */,
 				043ADD7719F6D72800370F8B /* HeatCold.xcdatamodeld */,
 				043ADD6C19F6D72800370F8B /* Supporting Files */,
-				043ADD9819F6D7A400370F8B /* MainViewController.h */,
-				043ADD9919F6D7A400370F8B /* MainViewController.m */,
-				043ADD9B19F6D98900370F8B /* MainView.h */,
-				043ADD9C19F6D98900370F8B /* MainView.m */,
 			);
 			path = HeatCold;
 			sourceTree = "<group>";
@@ -161,6 +159,25 @@
 				043ADD8B19F6D72800370F8B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043ADD9E19F7043500370F8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043ADD9C19F6D98900370F8B /* MainView.m */,
+				043ADD9B19F6D98900370F8B /* MainView.h */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		043ADD9F19F7045C00370F8B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				043ADD9919F6D7A400370F8B /* MainViewController.m */,
+				043ADD9819F6D7A400370F8B /* MainViewController.h */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
