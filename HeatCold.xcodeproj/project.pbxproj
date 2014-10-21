@@ -22,6 +22,8 @@
 		043ADD8519F6D72800370F8B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043ADD6919F6D72800370F8B /* CoreData.framework */; };
 		043ADD8D19F6D72800370F8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043ADD8B19F6D72800370F8B /* InfoPlist.strings */; };
 		043ADD8F19F6D72800370F8B /* HeatColdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043ADD8E19F6D72800370F8B /* HeatColdTests.m */; };
+		043ADD9A19F6D7A400370F8B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043ADD9919F6D7A400370F8B /* MainViewController.m */; };
+		043ADD9D19F6D98900370F8B /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 043ADD9C19F6D98900370F8B /* MainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		043ADD8A19F6D72800370F8B /* HeatColdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeatColdTests-Info.plist"; sourceTree = "<group>"; };
 		043ADD8C19F6D72800370F8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		043ADD8E19F6D72800370F8B /* HeatColdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeatColdTests.m; sourceTree = "<group>"; };
+		043ADD9819F6D7A400370F8B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		043ADD9919F6D7A400370F8B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		043ADD9B19F6D98900370F8B /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		043ADD9C19F6D98900370F8B /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				043ADD7A19F6D72800370F8B /* Images.xcassets */,
 				043ADD7719F6D72800370F8B /* HeatCold.xcdatamodeld */,
 				043ADD6C19F6D72800370F8B /* Supporting Files */,
+				043ADD9819F6D7A400370F8B /* MainViewController.h */,
+				043ADD9919F6D7A400370F8B /* MainViewController.m */,
+				043ADD9B19F6D98900370F8B /* MainView.h */,
+				043ADD9C19F6D98900370F8B /* MainView.m */,
 			);
 			path = HeatCold;
 			sourceTree = "<group>";
@@ -248,9 +258,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043ADD9D19F6D98900370F8B /* MainView.m in Sources */,
 				043ADD7619F6D72800370F8B /* AppDelegate.m in Sources */,
 				043ADD7219F6D72800370F8B /* main.m in Sources */,
 				043ADD7919F6D72800370F8B /* HeatCold.xcdatamodeld in Sources */,
+				043ADD9A19F6D7A400370F8B /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

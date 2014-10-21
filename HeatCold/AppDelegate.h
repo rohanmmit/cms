@@ -6,17 +6,14 @@
 //  Copyright (c) 2014 rohan mahajan. All rights reserved.
 //
 
+// Copyright 2013 Quip
+// http://www.apache.org/licenses/LICENSE-2.0.html
+
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
-@property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
-
-- (void)saveContext;
-- (NSURL *)applicationDocumentsDirectory;
-
 @end
+
