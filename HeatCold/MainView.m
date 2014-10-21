@@ -45,14 +45,25 @@
     [self addSubview: heatLabel];
 }
 
+- (IBAction)heatSliderValueChanged:(UISlider *)sender {
+    NSLog(@" heatslider value = %f", sender.value);
+}
+
+- (IBAction)coldSliderValueChanged:(UISlider *)sender {
+    NSLog(@" coldslider value = %f", sender.value);
+}
+
 -(void) setHeatSlider{
+    NSLog(@"enters into this method");
     heatSlider = [[UISlider alloc] initWithFrame:CGRectMake(150, 160, 130, 50)];
     [heatSlider setMinimumTrackTintColor:[UIColor redColor]];
+    [heatSlider addTarget:self action:@selector(heatSliderValueChanged:) forControlEvents:UIControlEventValueChanged];
     [self addSubview: heatSlider];
 }
 
 -(void) setColdSlider{
     coldSlider = [[UISlider alloc] initWithFrame:CGRectMake(150, 280, 130, 50)];
+    [coldSlider addTarget:self action:@selector(coldSliderValueChanged:) forControlEvents:UIControlEventValueChanged];
     [self addSubview: coldSlider];
 }
 
